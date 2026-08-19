@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+data/raw/
+data/*.zip
+data/features.csv
+trained_model/*.joblib
+trained_model/eval_results.json
+trained_model/_uploaded.wav
+.DS_Store
