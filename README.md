@@ -1,9 +1,5 @@
 # Submission README
 
-## Track Chosen
-
-Track C — Tiny Model/Eval.
-
 ## What I Built
 
 A voice emotion classifier (RandomForest on MFCC + pitch + energy) trained on RAVDESS via `voice_emotion_recognition.ipynb` in Colab, plus a Streamlit app with two tabs: **Try it** (pick or upload a clip, see the prediction next to a pitch/energy heuristic) and **Model eval** (accuracy, confusion matrix, per-emotion recall, disagreements). Model: 54.6% vs. heuristic's 32.5% (8 classes, 12.5% chance). Built to show whether the complexity earns its keep, not just report a number.
